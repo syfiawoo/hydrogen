@@ -6,7 +6,7 @@ export default function Home() {
     query: QUERY
   })
   console.log(data)
-  return <h1 className="text-3xl font-bold">Hello {data.shop.name}</h1>;
+  return <h1 className="text-3xl font-bold">{data.shop.name}</h1>;
 }
 
 const QUERY = gql`
