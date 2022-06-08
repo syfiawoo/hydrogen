@@ -1,0 +1,27 @@
+{
+  "name": "hello-world",
+  "description": "Hello world template for @shopify/hydrogen",
+  "version": "0.0.0",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "dev": "cross-env LOCAL_DEV=true shopify hydrogen dev",
+    "build": "shopify hydrogen build",
+    "preview": "shopify hydrogen preview"
+  },
+  "devDependencies": {
+    "@shopify/cli": "2.0.10",
+    "@shopify/cli-hydrogen": "^2.0.10",
+    "cross-env": "^7.0.3",
+    "vite": "^2.9.0"
+  },
+  "dependencies": {
+    "@shopify/hydrogen": "^0.22.1",
+    "@tailwindcss/typography": "^0.5.2",
+    "autoprefixer": "^10.4.7",
+    "postcss": "^8.4.14",
+    "react": "^18.1.0",
+    "react-dom": "^18.1.0",
+    "tailwindcss": "^3.0.24"
+  }
+}
